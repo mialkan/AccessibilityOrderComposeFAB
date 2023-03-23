@@ -47,7 +47,7 @@ fun FirstScreen(navController: NavController) {
             topBar = {
                 TopAppBar(title = {
                     Text(
-                        text = "Back Button Focus Issue",
+                        text = "FAB Focus Issue",
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.semantics { heading() }
